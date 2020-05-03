@@ -1,11 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        int amount = 1_820_00; // Копейки
-        int limit = 100_00; // Копейки
-        int bonus = amount / limit;
-           if (limit >= 1000_00) {
-               bonus = amount / limit;
-           }
-               System.out.println(bonus);
+        int payment = 500_00; // В копейках
+        if (payment >= 1000_00){
+            int bonus = payment / 100_00;
+            System.out.println(bonus);
+        }
     }
 }
