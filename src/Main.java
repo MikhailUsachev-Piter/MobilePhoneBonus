@@ -1,12 +1,12 @@
 public class Main {
     public static void main(String[] args) {
-        int payment = 200_00; // В копейках
-        if (payment >= 1000_00){
-            int bonus = payment / 100_00;
-            System.out.println(bonus);
+        int payment = 4500_00; // В копейках
+        int bonus;
+        if (payment >= 1000_00) {
+            bonus = payment / 100_00;
         } else {
-            int bonus = 0;
-            System.out.println(bonus);
+            bonus = 0;
+        }
+                System.out.println("Ваш бонус: " + bonus);
         }
     }
-}
