@@ -7,6 +7,6 @@ public class Main {
         } else {
             bonus = 0;
         }
-                System.out.println("Ваш бонус: " + bonus);
-        }
+        System.out.println("Ваш бонус: " + bonus);
     }
+}
